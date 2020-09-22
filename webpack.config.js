@@ -43,7 +43,7 @@ module.exports = function(env) {
   //externals: [nodeExternals()],
   externals: {
     // Who came first the host or the plugin ?
-    "vscode": "commonjs vscode",
+    "coc.nvim": "commonjs coc.nvim",
 
     // Optional dependencies of ws
     "utf-8-validate": "commonjs utf-8-validate",

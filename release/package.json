@@ -1,5 +1,5 @@
 {
-	"name": "Ionide-fsharp",
+	"name": "coc-ionide",
 	"version": "4.17.0",
 	"publisher": "Ionide",
 	"contributors": [
@@ -25,6 +25,10 @@
 		"type": "git",
 		"url": "https://github.com/ionide/ionide-vscode-fsharp.git"
 	},
+	"keywords": [
+    "f#",
+    "coc.nvim"
+  ],
 	"badges": [
 		{
 			"description": "Open Collective Backers",
@@ -38,7 +42,8 @@
 		}
 	],
 	"engines": {
-		"vscode": "^0.10.0"
+		"coc": ">=0.0.71",
+		"vscode" : "*"
 	},
 	"main": "./fsharp",
 	"contributes": {
